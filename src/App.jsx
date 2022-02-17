@@ -22,8 +22,11 @@ const App = () => {
     
     <div style={{ backgroundColor: darkMode ? "#222" : "white",color: darkMode &&"white", }} >
         
-   
-       <BrowserRouter>
+        <Toggle />
+      <Intro />
+      <About />
+      <Post/>
+       {/* <BrowserRouter>
        <NavBar/> 
       <Routes>
         <Route element={<Post/>} path='/post'/>
@@ -32,13 +35,11 @@ const App = () => {
         <Route element={<Project/>} path='/project'/>
 
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
      
      {/* <Post/> */}
-     <Toggle />
-      <Intro />
-      <About />
-      <ProductList />
+     
+      {/* <ProductList/> */}
       <Contact />
 
     </div>

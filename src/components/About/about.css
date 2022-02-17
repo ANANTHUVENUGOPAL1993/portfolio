@@ -40,8 +40,10 @@ height: 100%;
 }
 
 .a-title{
-    font-weight: 400;
+    font-weight: 800;
     justify-content: center;
+    font-size: large;
+    
 }
 
 .a-sub{
